@@ -1,6 +1,6 @@
 # FLAC to AIFF Converter
 
-A simple GUI application to convert FLAC audio files to AIFF format.
+A simple terminal script to convert FLAC audio files to AIFF format.
 
 ## Requirements
 - Python 3.7 or higher
@@ -37,11 +37,10 @@ pip3 install -r requirements.txt
 
 1. Run the converter:
 ```bash
-python3 flac_converter.py
+python3 flac_converter.py <path_to_src>
 ```
 
-2. When prompted, enter the directory path containing your FLAC files
-3. The converter will:
+2. The converter will:
    - Find all FLAC files in the specified directory
    - Convert each file to AIFF format in the same directory
    - Display progress in the terminal
